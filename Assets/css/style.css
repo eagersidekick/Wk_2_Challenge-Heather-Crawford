@@ -10,10 +10,11 @@
     background: var(--red);
     padding: 15px;
     border-radius: 50px 50px 0 0;
+    border-bottom: solid var(--yellow) 4px;
 }
 
 .header h1{
-    font-family: 'Mooli', sans-serif;;
+    font-family: 'Mooli', sans-serif;
     font-size: 60px;
     font-weight: bold;
     margin: 10px 0px 10px 10px;
@@ -60,8 +61,37 @@
     background-color: var(--deepblue);
 }
 
-.aboutme #profilepicture {
-    padding: 20px 0 0 0;
+.aboutme img {
+    float: left;
+    margin-right:20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: double var(--teal) 3px;
+}
+
+h3 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 35px;
+    color: var(--deepblue);
+    margin-bottom: 0px;
+    width: 100%;
+    border-bottom: var(--red) 3px solid;
+}
+
+.aboutme h3 {
+    margin-inline-start: 295px;
+}
+
+p {
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+footer {
+    background-color: var(--teal);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Mooli', sans-serif;
+    color: var(--yellow);
 }
 
 
