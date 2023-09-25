@@ -6,6 +6,10 @@
     --red: #e76f51;
 }
 
+body {
+    margin:0 150px ;padding:0
+}
+
 .header {
     background: var(--red);
     padding: 15px;
@@ -74,7 +78,7 @@ h3 {
     font-size: 35px;
     color: var(--deepblue);
     margin-bottom: 0px;
-    width: 100%;
+    width: auto;
     border-bottom: var(--red) 3px solid;
 }
 
@@ -84,6 +88,7 @@ h3 {
 
 p {
     font-family: 'Inclusive Sans', sans-serif;
+    font-size: 18px;
 }
 
 footer {
