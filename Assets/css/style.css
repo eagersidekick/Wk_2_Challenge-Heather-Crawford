@@ -65,12 +65,14 @@ body {
     background-color: var(--deepblue);
 }
 
-.aboutme img {
+#aboutme img {
     float: left;
     margin-right:20px;
     margin-bottom: 5px;
     margin-top: 5px;
-    border: double var(--teal) 3px;
+    border-radius: 0px 50px 0px 50px;
+    width: 300px;
+    height: 300px;
 }
 
 h3 {
@@ -82,8 +84,8 @@ h3 {
     border-bottom: var(--red) 3px solid;
 }
 
-.aboutme h3 {
-    margin-inline-start: 295px;
+#aboutme h3 {
+    margin-inline-start: 320px;
 }
 
 p {
@@ -91,12 +93,87 @@ p {
     font-size: 18px;
 }
 
+.content {
+    justify-content: center;
+    padding: 15px;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+.content ul {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+
+.image-link{
+    border-radius: 15px 50px 15px 50px;
+    margin: 15px;
+    float: left;
+    transition: .25s;
+    filter: grey;
+    -webkit-filter: grayscale(100%);
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    font-size: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+#horiseon {
+    background-image: url("../images/horiseon.jpg");
+    height: 342px;
+    width: 795px;
+}
+
+#horiseon:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    outline:solid var(--red);
+    outline-offset: -3px;
+    
+}
+
+.placeholders {   
+    display: inline-grid;
+    padding: 15px;
+
+}
+
+#placeholder-one{
+    padding: 10px;
+    border-radius: 50px 15px 50px 15px;
+}
+
+#placeholder-two{
+    padding: 10px;
+    border-radius: 15px 50px 15px 50px;
+}
+
+#resume-banner{
+    background-image: url("../images/colors.jpeg");
+    background-size: cover;
+    height: 100px;
+    width: 900px;
+}
+
+#resume-banner:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    outline:solid var(--red);
+    outline-offset: -3px;
+    margin: 15px;
+} 
+
 footer {
     background-color: var(--teal);
     text-align: center;
     padding: 10px;
     font-family: 'Mooli', sans-serif;
+    font-size: 16px;
     color: var(--yellow);
 }
-
-
