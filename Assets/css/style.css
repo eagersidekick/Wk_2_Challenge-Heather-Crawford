@@ -177,3 +177,140 @@ footer {
     font-size: 16px;
     color: var(--yellow);
 }
+
+@media screen and (max-width: 1585px){
+    .placeholders {
+        display: block;
+    }
+    #resume-banner{
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1163px){
+    #aboutme img {
+        height: 200px;
+        width: 200px;
+    }
+    #aboutme h3 {
+        margin-inline-start: 220px;
+    }
+    .placeholders {
+        display: block;
+    }
+    #placeholder-one{
+        width: 200px;
+        height: 100px;
+    }
+    #placeholder-two{
+        width: 200px;
+        height: 100px;
+    }
+    #resume-banner{
+        width: 450px;
+    }
+    #horiseon {
+        width: 450px;
+        height: 250px;
+    }
+    .image-link {
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width: 795px){
+    .nav li a{
+        font-size: 14px;
+    }
+    #aboutme img {
+        height: 150px;
+        width: 150px;
+    }
+    #aboutme h3 {
+        margin-inline-start: 170px;
+    }
+    .placeholders {
+        display: block;
+    }
+    #placeholder-one{
+        width: 150px;
+        height: 90px;
+    }
+    #placeholder-two{
+        width: 150px;
+        height: 90px;
+    }
+    #resume-banner{
+        width: 350px;
+    }
+    #horiseon {
+        width: 350px;
+        height: 150px;
+    }
+    .image-link {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body {
+        margin:0;
+        padding:0;
+    }
+    #aboutme img {
+        height: 150px;
+        width: 150px;
+        margin: 20px;
+    }
+    #aboutme p {
+        margin: 20px;
+    }
+    #aboutme h3 {
+        margin-inline-start: 190px;
+    }
+    .placeholders {
+        display: block;
+    }
+    #placeholder-one{
+        width: 150px;
+        height: 90px;
+    }
+    #placeholder-two{
+        width: 150px;
+        height: 90px;
+    }
+    #resume-banner{
+        width: 350px;
+    }
+    #horiseon {
+        width: 350px;
+        height: 150px;
+    }
+    .image-link {
+        font-size: 30px;
+    }
+    h3 {
+        margin: 20px;
+    }
+}
+/* @media screen and (max-width: 1200px){
+    #resume-banner{
+        width: 600px;
+    }
+
+    #horiseon{
+        width: 300px;
+        height: 280px;
+    }
+    #placeholder-one{
+        width: 200px;
+    }
+    #placeholder-two{
+        width: 200px;
+    }
+    .image-link{
+        font-size: 60px;
+    }
+} */
