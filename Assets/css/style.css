@@ -124,13 +124,14 @@ p {
     align-items: center;
 }
 
-#horiseon {
-    background-image: url("../images/horiseon.jpg");
+#hero {
+    background-image: url("../images/trafficjam.png");
     height: 342px;
     width: 795px;
+    color:#264653
 }
 
-#horiseon:hover {
+#hero:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
     outline:solid var(--red);
@@ -210,7 +211,7 @@ footer {
     #resume-banner{
         width: 450px;
     }
-    #horiseon {
+    #hero {
         width: 450px;
         height: 250px;
     }
@@ -245,7 +246,7 @@ footer {
     #resume-banner{
         width: 350px;
     }
-    #horiseon {
+    #hero {
         width: 350px;
         height: 150px;
     }
@@ -284,7 +285,7 @@ footer {
     #resume-banner{
         width: 350px;
     }
-    #horiseon {
+    #hero {
         width: 350px;
         height: 150px;
     }
